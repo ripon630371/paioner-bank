@@ -22,6 +22,14 @@
             <button id="login" class="btn btn-success">Enter</button>
         </div>
     </div>
+    <script>
+        // login button event handler
+        const loginBtn = document.getElementById("login");
+        loginBtn.addEventListener("click", function() {
+            const loginArea = document.getElementById("login-area");
+            loginArea.style.display = "none";
+        })
+    </script>
 </body>
 
 </html>
